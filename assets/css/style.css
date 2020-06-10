@@ -1,0 +1,39 @@
+body {
+    background-color: #D3D3D3;
+    padding: 20px;
+}
+
+.board {
+    background-color: #FEA07A;
+    width: 1000px;
+    height: 500px;
+    margin: 0% 3% 3% 8%;
+    position: relative;
+}
+
+h1 {
+    margin-left: 8%;
+    margin-bottom: -1.6%;
+}
+
+.lives {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.player {
+    background-color: white;
+    width: 20px;
+    height: 20px ;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.obstacle {
+    background-color: #87CEFA;
+    position: absolute;
+}
